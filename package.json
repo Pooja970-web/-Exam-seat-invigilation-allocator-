@@ -1,0 +1,6 @@
+{
+  "name": "exam-seat-invigilation-allocator",
+  "version": "1.0.0",
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "dependencies": { "express": "^4.19.2", "pdfkit": "^0.15.0" }
+}
