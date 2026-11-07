@@ -24,9 +24,9 @@ header p{margin:2px 0 0;color:var(--mute);font-size:.9rem}
 textarea{width:100%;height:250px;resize:vertical;padding:10px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:6px;font:12.5px/1.5 ui-monospace,Consolas,monospace}
 textarea:focus,input:focus,button:focus-visible{outline:2px solid var(--ac);outline-offset:1px}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
-.set{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:14px;border-top:1px solid var(--line)}
+.set{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;padding:14px;border-top:1px solid var(--line)}
 .set label{font-size:.85rem;color:var(--mute);display:flex;flex-direction:column;gap:4px}
-input[type=number]{padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+input[type=number]{width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
 .btn{padding:9px 15px;border-radius:7px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit;font-weight:600;cursor:pointer;text-decoration:none;font-size:.9rem;display:inline-block}
 .btn:hover{border-color:var(--ac)}
 .btn.pri{background:var(--ac);color:var(--acink);border-color:var(--ac)}
